@@ -1,2 +1,4 @@
-name = input("Enter your name: ")
-print('Hello,', name)
+numbers = input()
+
+num1, num2 = map(int, numbers.split())
+print(num1 + num2)
